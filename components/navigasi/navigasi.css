@@ -1,0 +1,29 @@
+header{
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    right: 140px;
+    background: transparent;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: whitesmoke;
+}
+header div nav a{
+    color: whitesmoke;
+    font-weight: 500;
+    margin: 0 56px 0 0;
+}
+header div .nav-access{
+    background: #5468E780;
+    padding: 10px 44px 10px 44px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+header div .nav-access:hover{
+    background: #5468e7de;
+    cursor: pointer;
+}
