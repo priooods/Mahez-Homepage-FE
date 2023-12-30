@@ -1,0 +1,55 @@
+.footer-block{
+    margin-bottom: 100px;
+}
+.logo {
+    font-size: 14px;
+    line-height: 23px;
+    width: 168px;
+}
+.title{
+    color: #5468E7;
+    font-weight: 400;
+    font-size: 24px;
+}
+.copyright{
+    font-size: 14px;
+}
+.block{
+    width: 136px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    list-style-position: outside;
+}
+ul li{
+    margin-left: -30px;
+}
+ul .menu{
+    cursor: pointer;
+}
+.stay .desc, ul li{
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.hero-input-footer{
+    padding-right: 40px;
+    color: whitesmoke;
+    background:#F5F5F53D url('../../assets/icon/arrow_right_white.svg') no-repeat center right 11px;
+}
+
+.hero-input-footer::placeholder {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.hero-input-footer::-ms-input-placeholder {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+}
