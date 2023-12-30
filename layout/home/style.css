@@ -40,6 +40,7 @@
 /* Info Section */
 .info-sec-one, .info-sec-two, .info-sec-three{
     padding: 0 140px 0 140px;
+    align-items: center;
     margin-top: 100px;
 }
 .offer{
@@ -62,6 +63,9 @@
     width: 565px;
     height: 565px;
     background-image: url('../../assets/images/info_sec_one.svg');
+}
+.offer-img-one .offer{
+    margin-left: auto;
 }
 .offer-img-one .calender-img{
     position: absolute;
@@ -146,4 +150,178 @@
 .swiper-slide .content .avatar .user span{
     font-size: 14px;
     color: #7676B2;
+}
+
+@media only screen and (min-width: 300px) and (max-device-width: 950px) and (orientation:landscape) {
+    .hero{
+        padding: 0 30px;
+        background-size: cover;
+        background-repeat: none;
+        background-position: 50%;
+        height: 720px;
+    }
+    .hero .hero-offer .content{
+        max-width: max-content;
+    }
+    .hero .hero-offer .content p{
+        max-width: max-content;
+    }
+    .mockup{
+        padding-left: 30px;
+    }
+    .mockup .offer{
+        padding-right: 20px;
+    }
+    .mockup img{
+        width: 100%;
+        object-fit: cover;
+        height: 654px;
+        object-position: -5% 0;
+    }
+    .offer-img, .offer {
+        width: 100%;
+    }
+    .offer-img-one{
+        height: 360px;
+    }
+    .offer h2{
+        font-size: 34px;
+        font-weight: 700;
+    }
+    .info-sec-two .offer {
+        padding-left: 20px;
+    }
+    .info-sec-three .offer{
+        padding-right: 20px;
+    }
+    .info-sec-two .offer-img-two{
+        margin-left: 20px;
+    }
+    .info-sec-three .offer-img-three{
+        margin-right: 30px;
+    }
+    .learn-more img{
+        width: 30px;
+        height: 30px;
+    }
+    .info-sec-one, .info-sec-two, .info-sec-three{
+        align-items: start;
+        padding: 0 0 0 0;
+        margin-top: 100px;
+    }
+    .info-sec-one .offer-img-one img{
+        width: 160px;
+    }
+    .review{
+        margin-top: 140px;
+    }
+    .review h1{
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        padding: 0 50px;
+    }
+    .swiper .swiper-wrapper{
+        padding-left: 20px;
+    }
+    .swiper-slide .content{
+        padding: 44px 33px 44px 33px;
+        width: 260px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-device-width: 950px) and (orientation:portrait) {
+    .hero{
+        width: 100%;
+        padding: 0 20px;
+        background-size: cover;
+        background-repeat: none;
+        background-position: 70%;
+        min-height: 780px;
+    }
+    .hero .hero-offer .content{
+        max-width: max-content;
+    }
+    .hero .hero-offer .content h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .hero .hero-offer .content p{
+        max-width: max-content;
+        font-size: 16px;
+    }
+    .hero .hero-input{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .hero .btn-default{
+        width: 100%;
+    }
+    .mockup{
+        padding-left: 0;
+    }
+    .mockup img{
+        width: 100%;
+        object-fit: cover;
+        height: 654px;
+        object-position: -5% 0;
+    }
+    .learn-more img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .info-sec-one, .info-sec-two, .info-sec-three{
+        padding: 0 0 0 0;
+        margin-top: 100px;
+    }
+    .offer-img-two, .offer-img-three{
+        margin-right: 50px;
+    }
+    .offer-img, .offer {
+        width: 100%;
+    }
+    .offer{
+        padding: 0 20px;
+    }
+    .offer-img img{
+        width: 160px;
+    }
+    .offer h2{
+        font-size: 34px;
+    }
+    .offer p , .offer .learn-more a{
+        font-size: 16px;
+    }
+
+    .offer-img-three .imgs{
+        bottom: 20px;
+        left: 40px;
+    }
+
+    .review{
+        margin-top: 140px;
+    }
+    .review h1{
+        font-size: 34px;
+        line-height: 42px;
+        font-weight: 700;
+        width: 700;
+        text-align: center;
+    }
+    .arrow{
+        padding: 0 50px 0 50px;
+    }
+
+    .swiper{
+        margin-top: 120px;
+    }
+    .swiper .swiper-wrapper{
+        padding-left: 20px;
+        cursor: grab;
+    }
+    .swiper-slide .content{
+        padding: 44px 33px 44px 33px;
+        width: 260px;
+    }
 }

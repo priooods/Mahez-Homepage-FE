@@ -27,3 +27,44 @@ header div .nav-access:hover{
     background: #5468e7de;
     cursor: pointer;
 }
+.nav-collapse{
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 350px) and (max-device-width: 950px) and (orientation:landscape) {
+    nav, .nav-access{
+        visibility: hidden;
+    }
+    header{
+        top: 30px;
+        left: 30px;
+        right: 30px;
+    }
+
+    .nav-collapse{
+        visibility: visible;
+    }
+}
+@media only screen and (min-width: 350px) and (max-device-width: 950px) and (orientation:portrait) {
+    nav, .nav-access{
+        visibility: hidden;
+    }
+    header{
+        top: 5px;
+        left: 30px;
+        right: 30px;
+    }
+    header div{
+        justify-content: end;
+    }
+    header .logo{
+        width: 80px;
+        height: 52px;
+    }
+    header div nav a{
+        margin: 0;
+    }
+    .nav-collapse{
+        visibility: visible;
+    }
+}

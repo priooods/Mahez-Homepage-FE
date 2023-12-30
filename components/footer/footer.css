@@ -17,6 +17,9 @@
 .block{
     width: 136px;
 }
+.stay, .block{
+    margin-left: 50px;
+}
 ul{
     list-style-type: none;
     padding: 0;
@@ -52,4 +55,25 @@ ul .menu{
   color: white;
   font-weight: 400;
   font-size: 14px;
+}
+@media only screen and (min-width: 300px) and (max-device-width: 950px) and (orientation:landscape) {
+    .logo img{
+        width: 138px;
+    }
+    .stay , .block{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 300px) and (max-device-width: 950px) and (orientation:portrait) {
+    .logo img{
+        width: 138px;
+    }
+    .stay , .block{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .hero-input-footer{
+        width: 100%;
+    }
 }
